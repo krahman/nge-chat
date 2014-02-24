@@ -1,0 +1,23 @@
+{
+  "name": "nge-chat",
+  "version": "0.0.1",
+  "homepage": "https://github.com/krahman/nge-chat",
+  "authors": [
+    "khal <khal.rahman@gmail.com>"
+  ],
+  "description": "damn simple chat using node express sockjs",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sockjs": "*",
+    "ejs": "*",
+    "angularjs": "*"
+  }
+}
