@@ -25,3 +25,9 @@ An example chat app using nodejs express, sockjs, angularjs
 5. Run app
 
 		node app.js
+		
+
+Demo at Heroku:
+
+http://fathomless-spire-1921.herokuapp.com/
+ 
