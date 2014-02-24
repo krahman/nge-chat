@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="bower_components/sockjs/sockjs.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="javascripts/chat.js"></script>
   </head>
   <body>
+    <div ng-controller="ChatCtrl">
+      <ul>
+        <li ng-repeat="message in messages track by $index">{{message}}</li>
+      </ul>
+      <form ng-submit="sendMessage()">
+        <input type="text" ng-model="messageText" placeholder="Type your message here"/>
+        <input type="submit" value="Send"/>
+      </form>
+    </div>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
   </body>

@@ -18,6 +18,6 @@
   "dependencies": {
     "sockjs": "*",
     "ejs": "*",
-    "angularjs": "*"
+    "angular": "*"
   }
 }
