@@ -1,4 +1,4 @@
-var sock = new SockJS('http://localhost:3000/chat');
+var sock = new SockJS('http://fathomless-spire-1921.herokuapp.com/chat');
 function ChatCtrl($scope){
   $scope.messages = [];
   $scope.sendMessage = function(){
