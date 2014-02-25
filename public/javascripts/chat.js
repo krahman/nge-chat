@@ -9,5 +9,5 @@ function ChatCtrl($scope){
   sock.onmessage = function(e){
     $scope.messages.push(e.data);
     $scope.$apply();
-  }
+  };
 }

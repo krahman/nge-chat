@@ -6,6 +6,10 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-uglify": "*",
     "express": "3.4.8",
     "sockjs": "~0.3.8",
     "ejs": "*"
