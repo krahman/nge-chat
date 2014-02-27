@@ -3,13 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node node_modules/grunt-cli/bin/grunt",
+    "postinstall": "node node_modules/.bin/bower install"
   },
   "dependencies": {
-    "grunt": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-nodeunit": "*",
-    "grunt-contrib-uglify": "*",
+    "bower": "*",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-env": "~0.4.1",
+    "grunt-concurrent": "~0.4.3",
+    "grunt-karma": "~0.6.2",
+    "grunt-mocha-test": "~0.8.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3",
     "express": "3.4.8",
     "sockjs": "~0.3.8",
     "ejs": "*"
